@@ -1,0 +1,17 @@
+# Credentials — never push these
+scripts/test_connection.py
+
+# Raw data files — too large for GitHub
+data/*.csv
+data/*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Pip
+get-pip.py
